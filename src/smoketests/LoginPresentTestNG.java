@@ -17,7 +17,7 @@ public class LoginPresentTestNG {
 		boolean passwordBox = driver.findElement(By.id("MainContent_txtPassword")).isDisplayed();
 		
 		Assert.assertTrue(loginEmailBox, "Email textbox present");
-		Assert.assertTrue(!passwordBox, "Password textbox not present");
+		Assert.assertTrue(passwordBox, "Password textbox not present");
 	}
 	
 	@BeforeMethod
