@@ -1,6 +1,5 @@
 package demos;
 
-import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -14,8 +13,8 @@ public class CreateAccount {
 		// Key-Value pair variables
 		String geckoDriverKey = "webdriver.gecko.driver";
 		String geckoDriverPath = "\\C:\\Users\\SQ363ZW\\Desktop\\EY Projects\\Selenium WebDriver\\geckodriver.exe";
-		String chromeDriverKey = "webdriver.chrome.driver";
-		String chromeDriverPath ="\\C:\\Users\\SQ363ZW\\Desktop\\EY Projects\\Selenium WebDriver\\chromedriver.exe";
+//		String chromeDriverKey = "webdriver.chrome.driver";
+//		String chromeDriverPath ="\\C:\\Users\\SQ363ZW\\Desktop\\EY Projects\\Selenium WebDriver\\chromedriver.exe";
 		String baseUrl = "http://sdettraining.com/trguitransactions/AccountManagement.aspx";
 		
 		// 1. Define the WebDriver
